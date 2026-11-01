@@ -71,7 +71,9 @@ Windows 默认目录示例为 `%USERPROFILE%\.codex\skills\elrond\SKILL.md`。�
 
 ### Eärendil
 
-适合论文或技术博客的定向阅读。模板覆盖任务、问题、机制、反馈与记忆、改变位置、研究联系、差异、baseline 或消融，以及 Related Work。检查公平比较、参数更新和结论范围，保留读者独立判断。
+适合论文或技术博客的定向阅读。模板覆盖任务、问题、机制、反馈与记忆、改变位置、研究联系、差异、baseline 或消融、Related Work，以及有价值的 Grill Me Q&A。检查公平比较、参数更新和结论范围，保留读者独立判断。
+
+Q&A 只整理真正暴露误解、改变理解或影响研究决策的实际问答，保留初答、关键追问、修正与原文依据。用户回答与 AI 的解释分开记录，未回答或未形成的判断留空，不把聊天中的一致意见当成已验证结论。
 
 ```text
 使用 $earendil，为这篇论文搭建 Obsidian 空白框架，只填书目信息、材料链接和阅读位置，分析与问题答案由我写。
@@ -79,6 +81,10 @@ Windows 默认目录示例为 `%USERPROFILE%\.codex\skills\elrond\SKILL.md`。�
 
 ```text
 使用 $earendil，审阅我已有的笔记，检查原文依据、baseline 公平性和结论范围，只在聊天里给修改建议。
+```
+
+```text
+使用 $earendil，把刚才真正有价值的 Grill Me 问答整理进笔记，保留我的初答、关键追问和实际修正，标出 AI 的解释与原文依据，未回答的部分不要代填。
 ```
 
 按需在自己的副本中填写 [研究画像](skills/earendil/references/research-interests.md)。不填也能阅读文献；未确认的项目接口保持待确认。框架是普通 Markdown，可以放入 Obsidian，也可以在其他编辑器使用。
