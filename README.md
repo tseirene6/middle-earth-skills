@@ -89,6 +89,8 @@ Q&A 只整理真正暴露误解、改变理解或影响研究决策的实际问�
 
 按需在自己的副本中填写 [研究画像](skills/earendil/references/research-interests.md)。不填也能阅读文献；未确认的项目接口保持待确认。框架是普通 Markdown，可以放入 Obsidian，也可以在其他编辑器使用。
 
+另提供可独立复制的 [跨学科文献阅读模板](skills/earendil/assets/interdisciplinary-note-template.md)，适用于理论、实证、定性、历史与文本诠释、规范论证等研究。围绕问题、前提、方法、依据和结论组织，按研究方式选用字段，保留有价值的 Grill Me Q&A；不要求安装 Skill，也不替换原有 AI 研究模板。
+
 ## 依赖与可选工具
 
 基础需求是能够读取这些指令的 AI 客户端，以及用户提供的可读材料。联网核查、PDF 提取、代码执行和文件写入取决于宿主环境；缺少工具时应说明限制。
