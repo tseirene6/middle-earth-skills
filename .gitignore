@@ -1,0 +1,20 @@
+# Local secrets and personal reading records
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.log
+private/
+local/
+notes/
+__pycache__/
+.DS_Store
+Thumbs.db
+# LaTeX build products
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk

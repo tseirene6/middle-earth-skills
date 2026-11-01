@@ -1,0 +1,6 @@
+interface:
+  display_name: "Idril · 简洁笔记"
+  short_description: "沿用课程材料的符号，提炼条件与易错点，配典型例题整理适合手抄的笔记"
+  default_prompt: "使用 $idril 依据我提供的材料整理简洁笔记，并通过典型题带我复习。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Elrond · 课内学习教练"
+  short_description: "结合课件，通过试错、概念讲解、反向教学和迁移练习检查独立应用能力"
+  default_prompt: "使用 $elrond 结合我的课件带我学习，一题一问，根据真实回答调整。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Eärendil · 文献阅读与研究关联"
+  short_description: "搭建文献阅读框架、定位原文证据并提供追问，个人分析与研究判断由用户完成"
+  default_prompt: "使用 $earendil 为这篇文献搭建 Obsidian 空白框架，提供阅读位置和 Grill Me，分析由我自己写。"
+policy:
+  allow_implicit_invocation: true

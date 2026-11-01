@@ -1,0 +1,101 @@
+\documentclass[11pt,a4paper,fontset=fandol]{ctexart}
+\usepackage[margin=25mm,top=27mm,bottom=25mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{graphicx,booktabs,array}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{setspace}
+\definecolor{ink}{HTML}{202A33}
+\definecolor{soft}{HTML}{65727B}
+\definecolor{accent}{HTML}{486F86}
+\hypersetup{colorlinks=true,linkcolor=ink,urlcolor=accent,citecolor=accent}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.4em}
+\setstretch{1.2}
+\setlist[itemize]{itemsep=0.25em,topsep=0.2em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{soft}Galadriel · 论文深读}
+\fancyhead[R]{\small\color{soft}\nouppercase{\leftmark}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{15pt}
+\newcommand{\prompt}[1]{\par\noindent{\color{soft}\small #1}\par}
+\begin{document}
+\thispagestyle{empty}
+\vspace*{18mm}
+{\color{ink}\Huge\bfseries 论文精读笔记\par}
+\vspace{5mm}
+{\Large 原文标题与研究问题\par}
+\vspace{4mm}
+{\color{soft}研究方向 \quad / \quad 关键方法 \quad / \quad 核心问题\par}
+\vspace{8mm}
+{\small 作者：\underline{\hspace{35mm}}\qquad 阅读日期：\underline{\hspace{28mm}}}
+\vspace{9mm}
+
+\section*{写在前面}
+\prompt{请由读者自己写：这篇论文研究什么问题？为什么值得细读？本文笔记准备沿什么线索展开？}
+
+\vspace{8mm}
+\noindent\fbox{\parbox[c][48mm][c]{0.97\linewidth}{\centering\color{soft}
+图表预留位置\\[2mm]
+可放自绘机制图，或附有出处与使用权限的原文图}}
+
+\vspace{5mm}
+{\small\color{soft}图：请写图意、来源与图号；不要将示意图当作实验结果。}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{问题与研究脉络}
+\prompt{用自己的话回答：问题、输入、输出和重要性是什么？两条已有路线分别如何处理这个问题？定位支持判断的原文章节。}
+\vspace{8mm}
+\noindent\fbox{\parbox[c][35mm][c]{0.97\linewidth}{\centering\color{soft}研究路线或方法对照图的位置}}
+
+\section{理解方法所需的基础}
+\prompt{只补充理解本文所需的概念。区分直觉、精确定义与适用条件；可插入一个具体例子。}
+
+\subsection{核心概念与符号}
+\prompt{符号：\quad 含义：\quad 单位或取值范围：\quad 来源：}
+
+\subsection{关键推导}
+\prompt{先由自己尝试推导；记录每一步的依据、假设，以及不理解的地方。论文原式与个人推导应标明区别。}
+\vspace{14mm}
+
+\section{论文方法：机制与设计动机}
+\prompt{沿数据流写出输入、模块、输出；解释每个设计针对什么瓶颈。注明模型与参数在训练、测试时分别如何变化。}
+
+\subsection{信息流与核心组件}
+\prompt{输入 $\rightarrow$ 处理 $\rightarrow$ 输出：\quad 由读者填写。}
+\vspace{12mm}
+
+\subsection{目标函数与训练}
+\prompt{从原文核对公式编号和符号；解释每项为何出现、优化对象是什么。不要凭领域常识补写原文未给出的细节。}
+\vspace{12mm}
+
+\section{实验、消融与结论边界}
+\prompt{选择一张关键结果表与一项消融，记录对照对象、数据、指标和条件。由读者解释证据能够支持什么，以及不能支持什么。}
+
+\subsection{复现线索}
+\prompt{代码、数据、依赖、训练预算与未公开细节：仅填写已经核实的信息。}
+
+\section{讨论与研究问题}
+\prompt{记录自己认可的贡献、可疑假设、可能反例及最小验证；区分已证实的局限与自己的候选质疑。}
+\vspace{10mm}
+
+\section*{Grill Me：由读者回答}
+\addcontentsline{toc}{section}{Grill Me：由读者回答}
+\begin{enumerate}
+  \item 如果移除你认为最关键的设计，哪种现象会改变？为什么？
+  \item 哪项实验最能支持你的解释？它还排除了哪些解释、保留了哪些不确定性？
+  \item 对你感兴趣的研究问题，最小的可证伪后续实验是什么？
+\end{enumerate}
+
+\section*{参考文献与材料来源}
+\addcontentsline{toc}{section}{参考文献与材料来源}
+\prompt{由读者记录实际阅读过的论文、版本、章节与链接；引用原图、数据或公式时单独注明出处。}
+
+\end{document}

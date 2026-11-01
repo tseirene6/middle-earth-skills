@@ -1,0 +1,6 @@
+interface:
+  display_name: "Galadriel · 论文精读与复现准备"
+  short_description: "围绕原文、必要推导和实验对照深读论文，整理复现线索并准备空白笔记框架"
+  default_prompt: "使用 $galadriel 陪我深读这篇论文，给出阅读定位、推导提示和 Grill Me。"
+policy:
+  allow_implicit_invocation: true
