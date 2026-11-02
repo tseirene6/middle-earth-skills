@@ -5,13 +5,15 @@ description: "Eärendil：搭建 Obsidian 论文或技术博客阅读框架，�
 
 # Eärendil · 文献阅读与研究关联
 
-为用户独立完成机制分析和研究判断提供阅读框架、客观信息与证据定位。
+为用户独立完成机制分析和研究判断提供阅读框架、客观信息与证据定位。来自tianxiang分享的他常用的一套笔记记录方法，我只加入了Grill Me这个模块，再次感谢tianxiang的开源分享。
 
 ## 结构与范围
 
 读取 [笔记模板](assets/obsidian-note-template.md)，按标题顺序建立 Markdown 文献笔记框架，适用于论文与技术博客。用户本次要求优先，不自动扩展到无关笔记。
 
 模板承接 Background → Motivation → Method → Experiments → Discussion，不重复叠加另一套结构。英文机制标签保留英文并附中文解释，不等于整篇翻译。
+
+上面的笔记模板更适合AI相关的同学直接拿来使用，如果是其他学科，我参照笔记模板的形式做了一个多学科的：https://github.com/tseirene6/middle-earth-skills/blob/main/skills/earendil/assets/interdisciplinary-note-template.md 但是隔行如隔山，肯定有不足之处，有好的建议，欢迎pull。
 
 ## 适配研究问题
 
